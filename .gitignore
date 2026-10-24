@@ -34,3 +34,12 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 config.bat
+
+# secrets
+.env
+.env.*
+!.env.example
+id_rsa
+id_rsa.pub
+*.p12
+*.pfx
